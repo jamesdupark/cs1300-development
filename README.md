@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-[`https://sleepysloth.github.io/cs1300-development`](https://sleepysloth.github.io/cs1300-development)
+[`https://sleepysloth444.github.io/cs1300-development/`](https://sleepysloth444.github.io/cs1300-development/)
 
 ### Goal and Value of the Application
 The goal of this application is to provide users a quick and easy interface with which to fliter and sort the generation 1 pokemon! Since there are so many pokemon, sometimes it can be hard to remember which pokemon belong to each type or what dual-types there are, so this application simplifies the process of finding all the gen 1 pokemon of a given type. The application also provides basic utilities for drafting a 6-pokemon team and assessing team strength by aggregating base stat totals.
