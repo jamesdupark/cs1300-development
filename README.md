@@ -1,7 +1,14 @@
 # Development
 
 ### Link to Deployed Website
-[`https://sleepysloth444.github.io/cs1300-development/`](https://sleepysloth444.github.io/cs1300-development/)
+[`https://jamesdupark.github.io/cs1300-development/`](https://jamesdupark.github.io/cs1300-development/)
+
+### Description
+This project was created for an assignment in Brown University's course CSCI1300: UI/UX. The assignment involved using React and JavaScript to deploy a basic website that would filter, sort, and aggregate some set of (at least 12) items and re-render changes accordingly. For this project, I chose to use the 151 Pokemon from Generation 1 of the classic Pokemon games, making a call to [`PokeAPI`](https://pokeapi.co)'s Pokemon API using the [`pokedex-promise`](https://github.com/PokeAPI/pokedex-promise-v2) package to obtain information about the Pokemon.
+
+### Known Issues
+* The initial API call to the Pokemon database is slow and Pokemon may take a long time to render upon initial load (API calls/storage needs optimization)
+* The error message that appears upon attempting to add more than 6 Pokemon to your team does not disappear on its own until the page is reloaded or a new filter set is selected
 
 ### Goal and Value of the Application
 The goal of this application is to provide users a quick and easy interface with which to fliter and sort the generation 1 pokemon! Since there are so many pokemon, sometimes it can be hard to remember which pokemon belong to each type or what dual-types there are, so this application simplifies the process of finding all the gen 1 pokemon of a given type. The application also provides basic utilities for drafting a 6-pokemon team and assessing team strength by aggregating base stat totals.
